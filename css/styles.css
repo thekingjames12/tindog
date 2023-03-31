@@ -1,0 +1,155 @@
+/* HTML ELEMENTS */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+h1 {
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: white;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3 {
+    padding: 1rem 0;
+    font-size: 1.6rem
+}
+p {
+    color: #383737;
+}
+
+/* CONTAINERS */
+
+.container-fluid {
+    padding: 4% 12%;
+}
+
+/* SECTIONS */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding-bottom: 0;
+}
+.nav-item {
+    padding: 0 15px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+/* TITLE SECTION */
+
+#title {
+    position: absolute;
+    text-align: left;
+}
+.col-img-phone {
+    padding-right: 0;
+    padding-left: 45px;
+}
+.img-phone {
+    transform: rotate(25deg);
+}
+
+/* FEATURES */
+
+#features {
+    padding: 5rem 0;
+    margin-top: 385px;
+    position: relative;
+}
+.icon {
+    color: #ef8172;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* TESTIMONIAL SECTION */
+
+#testimonials {
+    background-color: #ef8172;
+}
+.carousel-item {
+    padding: 7% 12%;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* PRESS SECTION  */
+
+#press {
+    padding: 7% 12%;
+}
+.press-logos {
+    width: 15%;
+    margin: 0 20px;
+}
+
+/* PRICING SECTION */
+
+.pricing-row {
+    padding: 2% 0;
+}
+.pricing-h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* CALL TO ACTION SECTION */
+
+.h3-cta {
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* FOOTER SECTION */
+
+.footer-icon {
+    padding: 0 15px 25px 15px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        position: static;
+        text-align: center;
+    }
+    .img-phone {
+        transform: none;
+        padding: 25px 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .card {
+        padding: 5% 0;
+    }
+}
